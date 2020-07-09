@@ -3,57 +3,107 @@
   <head>
     <meta charset="utf-8">
     <title>Emily Capra</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- link to css -->
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
-    <div>
-      <header>Emily Capra</header>
-    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <header >Emily Capra</header>
+        </div>
+      </div>
 
-    <div>
-      <h3>About Me</h3>
-      <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui
-        blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
-        et quas molestias excepturi sint occaecati cupiditate non provident,
-        similique sunt in culpa qui officia deserunt mollitia animi, id est
-        laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita
-        distinctio. Nam libero tempore, cum soluta nobis est eligendi optio
-        cumque nihil impedit quo minus id quod maxime placeat facere possimus,
-        omnis voluptas assumenda est, omnis dolor repellendus.
-        Temporibus autem quibusdam et aut officiis debitis aut
-        rerum necessitatibus saepe eveniet ut et voluptates
-        repudiandae sint et molestiae non recusandae.
-        Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
-        voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</p>
-    </div>
+      <div class="row">
+        <div class="col-12">
+          <h3>About Me</h3>
+          <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui
+          blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
+          et quas molestias excepturi sint occaecati cupiditate non provident,
+          similique sunt in culpa qui officia deserunt mollitia animi, id est
+          laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita
+          distinctio. Nam libero tempore, cum soluta nobis est eligendi optio
+          cumque nihil impedit quo minus id quod maxime placeat facere possimus,
+          omnis voluptas assumenda est, omnis dolor repellendus.
+          Temporibus autem quibusdam et aut officiis debitis aut
+          rerum necessitatibus saepe eveniet ut et voluptates
+          repudiandae sint et molestiae non recusandae.
+          Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
+          voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</p>
+        </div>
+      </div>
 
-    <div>
-      <picture>
-        <ul>
-          <li>Photo1</li>
-          <li>Photo2</li>
-          <li>Photo3</li>
-          <li>Photo4</li>
-        </ul>
-      </picture>
-    </div>
+      <div class="row">
+          <div class="col-4">
+            <picture>
+              <img src="assets/photos/emily_link_zelda.jpg">
+            </picture>
+          </div>
+          <div class="col-4">
+            <picture>
+              <img src="assets/photos/emily_rey.jpg">
+            </picture>
+          </div>
+          <div class="col-4">
+            <picture>
+              <img src="assets/photos/emily_working.jpg">
+            </picture>
+          </div>
+      </div>
 
-    <div>
-      <h1>Education</h1>
-    </div>
+      <div class="row">
+        <div class="col-12">
+          <h1>Education</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">Penn Foster:AAS Veterinary Technition</div>
+        <div class="col-4">Brigham Young University Idaho:BS General Studies Focus Buisness and Art</div>
+        <div class="col-4">Lone State College:AAS Paralegal Studies</div>
+      </div>
 
-    <div>
-      <h1>Work Experience</h1>
-    </div>
+      <div>
+        <h1>Work Experience</h1>
+        <ol>
+          <h2>Current Position</h2>
+          <li>Banfield Pet Hospital</li>
+            <p>-Communicate with clients gathering key details of each patient’s case, creating
+               treatment plans and preparing them for the doctor.</p>
+          <li>Paralegal</li>
+            <p>Add info about Paralegal jobs</p>
+            <ul>
+              <li>Brent Gordon Law Firm: Rexburg, Idaho</li>
+              <li>Haley & Olson PC: Waco, Texas</li>
+              <li>Griffin Law Firm: Houston, Texas</li>
+            </ul>
+          <li>Sale Associate</li>
+            <ul>
+              <li>Pet Fair</li>
+              <li>Body Shop</li>
+              <li>Home Depot</li>
+            </ul>
+          <li>Professional Dog Walker</li>
+            <ul>
+              <li>Rover: Houston & Waco Texas</li>
+              <li>The Purr-fect Paw: Waco, Texas</li>
+              <li>Play Time Pet Sitting: Roanoke, Virginia </li>
+            </ul>
+        </ol>
+      </div>
 
-    <div>
-      <footer>
-        Created By Tate Capra
-      </footer>
+      <div>
+        <footer>
+          Created By Tate Capra
+        </footer>
+      </div>
     </div>
   </body>
   <!-- link to javascript file-->
-  <script src="assets/js/app.js">
-  </script>
+  <script src="assets/js/app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
 </html>
