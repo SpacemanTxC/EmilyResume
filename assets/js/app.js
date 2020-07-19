@@ -53,14 +53,11 @@ function mobileText(){
   if (heightSize < 800 || widthSize < 1000){
     //replaces website with buisness card
     $("#mainBody").empty().append(mobileLayout);
+  }else{
+    $("#currentJob").append(curJob);
   }
 }
 
 
-// Add Title name
-$(document).ready(
-  function(){
-  $("#currentJob").append(curJob);
-  //call mobile 
-  mobileText();
-});
+// Call mobile
+$(document).ready(mobileText());
