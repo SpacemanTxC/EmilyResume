@@ -17,6 +17,9 @@ img{
   text-align:left;
   font-size: 25px;
 }
+#otherCareers{
+  text-align: left;
+}
 /*  Changes size when at 800px of images */
 @media only screen and (max-width:800px ) {
   img{

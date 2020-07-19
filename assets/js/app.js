@@ -58,6 +58,6 @@ function mobileText(){
   }
 }
 
-
+// *********** Working on timing ***********
 // Call mobile
 $(document).ready(mobileText());
