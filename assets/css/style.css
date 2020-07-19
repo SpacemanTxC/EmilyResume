@@ -10,9 +10,19 @@ ol{
 }
 img{
   max-width: 350px;
-  max-width: 350px;
+  max-height: 430px;
 }
+
 .listJobTitle{
   text-align:left;
   font-size: 25px;
+}
+/*  Changes size when at 800px of images */
+@media only screen and (max-width:800px ) {
+  img{
+    max-width: 90%;
+  }
+  p{
+    align-items: baseline;
+  }
 }
