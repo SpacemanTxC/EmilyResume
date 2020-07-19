@@ -4,6 +4,8 @@ Emily Capra custom website to show off her talents as a veterinary professional.
 
 Website Link: https://twcap.github.io/EmilyResume/
 
+<b>Currently in Development<b>
+
 Technologies Used:
 HTML, CSS, JavaScript
 
