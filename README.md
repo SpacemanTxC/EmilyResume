@@ -1,3 +1,5 @@
+Closed Project ****************************************************
+
 # Emily Capra Resume / CV
 
 Emily Capra custom website to show off her talents as a veterinary professional.
